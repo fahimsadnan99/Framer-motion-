@@ -1,12 +1,15 @@
 import React from 'react'
-import { motion } from "framer-motion"
+import Navbar from "./Leyars/Navbar"
+
+import { Outlet } from 'react-router-dom'
 
 const App = () => {
   return (
-  
-<div className='text-6xl text-red-600'>App</div>
+  <>
+  <Navbar></Navbar>
+<Outlet></Outlet>
 
-    
+</> 
   )
 }
 

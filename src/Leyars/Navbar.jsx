@@ -5,7 +5,7 @@ const Navbar = () => {
   let menu = ["", "About", "Service", "Contact"];
   let [menuList,setMenuList] = useState("")
   return (
-    <div className="w-full shadow-xl shadow-black/10 ">
+    <div className="w-full shadow-xl shadow-black/10 z-10">
       <div className="px-10 flex justify-between items-center   py-2">
         <NavLink to="/" className="text-4xl font-semibold font-mono">
           Navbar
